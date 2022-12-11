@@ -118,3 +118,8 @@ button:hover{
     margin-top: 90px;
     font-weight: lighter;
 }
+@media only screen and (max-height: 586px) {
+    .initiative p{
+        display: none;
+    }
+  }
