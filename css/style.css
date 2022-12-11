@@ -15,7 +15,8 @@ h3{
     align-items: center;
     background-repeat: no-repeat;
     justify-content: center;
-    background: #e3e3e3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(/img/background.png);
+    background-size: cover;
     min-height: 100vh;
 }
 .card{
@@ -23,8 +24,8 @@ h3{
     align-items: center;
     overflow: visible;
     justify-content: center;
-    min-height: 400px;
-    width: 300px;
+    min-height: 600px;
+    width: 400px;
     flex-direction: column;
     gap: 35px;
     border-radius: 15px;
@@ -97,24 +98,4 @@ button{
 button:hover{
     background-color: #000;
     color: #fff;
-}
-.initiative p{
-    display: flex;
-    width: 100%;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    font-family: georgia;
-    height: 8vh;
-    font-size: 28px;
-    word-spacing: 8px;
-    margin-top: 80px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.in p{
-    font-family: mono;
-    font-size: 16px;
-    margin-top: 90px;
-    font-weight: lighter;
 }
