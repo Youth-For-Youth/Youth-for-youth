@@ -121,5 +121,6 @@ button:hover{
 @media only screen and (max-height: 586px) {
     .initiative p{
         display: none;
+        overflow: hidden;
     }
   }
