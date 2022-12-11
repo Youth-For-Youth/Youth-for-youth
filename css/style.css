@@ -9,6 +9,11 @@
 h3{
     text-transform: uppercase;
     letter-spacing: 2px;
+    border: solid 1pX #000;
+    border-radius: 10pX;
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }
 .container{
     display: flex;
